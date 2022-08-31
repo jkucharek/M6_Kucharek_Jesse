@@ -1,0 +1,131 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Module 6 Practical</title>
+		<meta name="description" content="Module 6 practical example">
+
+	</head>
+
+	<body>
+		<div id="content">
+			<div id="title" class="layout"><span>SMITH PHOTOGRAPHY<span></div>
+			<div id="nav" class="layout"><span>
+				<a href="index.html">Home</a>
+				&emsp;
+				<a href="about.html">About</a>
+				&emsp;
+				<a href="contact.html">Contact</a>
+			</span></div>
+			<div id="body" class="layout">
+			<span id="capture">
+				<p>Capture Your Favorite Moments</p>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero.</p>
+				<img src="C:\Users\jesse.kucharek\Desktop\week6files\week6files\images\photo-studio.jpeg">
+			</span>
+			<span id="photographers">
+			</span>
+			</div>
+			<div id="footer" class="layout"><span>
+				|
+				&emsp;
+				1234 Main St. Nowhere, CA 56780
+				&emsp;
+				||
+				&emsp;
+				(555)123-4567 | lorem@ipsum.com
+				&emsp;
+				||
+				&emsp;
+				This is an example site for educational purposes only.
+				&emsp;
+				|
+			</span></div>
+		</div>
+	</body>
+</html>
+
+<style>
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+		margin-top: 266px;
+		background-color: #000000;
+	}
+
+	#content {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-auto-rows: 117px 88px auto 150px;
+		width: 1920px;
+		height: 1487px;
+		margin: 0 auto;
+	}
+
+	#content div {background: #ffffff;}
+
+	#content div:nth-child(even) {
+		background: rgb(46, 41, 78);
+		color: white;
+	}
+
+	.layout {grid-column: 100%}
+
+	#title span {
+		font-size: 80px;
+		color: rgb(27, 153, 139);
+		font-weight: bold;
+		letter-spacing: 0px;
+		display: block;
+		line-height: 117px;
+		text-align: center;
+	}
+
+	#nav span {
+		font-size: 24px;
+		display: block; 
+		line-height: 88px;
+		text-align: center;
+	}
+
+	#body {
+		display: grid;
+		grid-template-columns: 1210px auto;
+	}
+
+	#capture {
+		text-align: center;
+	}
+
+	#capture p:nth-of-type(1) {
+		font-size: 30pt;
+		font-weight: bold;
+		color: rgb(27, 153, 139);
+		padding-top: 47px;
+	}
+
+	#capture p:nth-of-type(2) {
+		text-align: left;
+		font-size: 21px;
+		width: 917px;
+		margin: auto;
+		font-weight: 100;
+		padding-bottom: 16px;
+	}
+
+	#capture img {
+		width: 877px;
+	}
+
+	#footer span {
+		font-size: 20px;
+		display: block;
+		line-height: 150px;
+		text-align: center;
+
+	}
+
+	a {color: inherit;}
+	
+</style>
