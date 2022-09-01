@@ -1,0 +1,5 @@
+https://www.w3schools.com/css/
+I used this site extensively (several pages within) for proper syntax on a number of CSS elements I had difficulty remember.
+
+https://stackoverflow.com
+I referenced a number of threads here on how to accomplish some alignment goals when CSS was not behaving as I wanted it to.
